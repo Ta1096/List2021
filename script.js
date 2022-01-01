@@ -69,17 +69,6 @@ document.getElementById('todo5').onclick = function(e)
   }
 }
 
-  document.getElementById('todo6').onclick = function(e)
-{
-  var textTodo = document.getElementById("TodoText6");
 
-  if (this.checked)
-  {
-    textTodo.innerHTML = "<del>Hết</del> độc thân";
-  }
-  else
-  {
-    textTodo.innerHTML = "Hết độc thân";
-  }
 }
 }
