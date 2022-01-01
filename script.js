@@ -4,11 +4,11 @@ document.getElementById('todo1').onclick = function(e)
   
   if (this.checked)
   {
-    textTodo.innerHTML = "Giàu hơn về tình cảm";
+    textTodo.innerHTML = "Mua ô <del>tô</del>";
   }
   else
   {
-    textTodo.innerHTML = "Giàu hơn";
+    textTodo.innerHTML = "Mua ô tô";
   }
 }
 
@@ -19,11 +19,11 @@ document.getElementById('todo2').onclick = function(e)
 
   if (this.checked)
   {
-    textTodo.innerHTML = "Đi du lịch tại gia";
+    textTodo.innerHTML = "Tiết kiệm 200.000<del>.000</del>";
   }
   else
   {
-    textTodo.innerHTML = "Đi du lịch";
+    textTodo.innerHTML = "Tiết kiệm 200.000.000";
   }
 }
 
@@ -33,7 +33,7 @@ document.getElementById('todo3').onclick = function(e)
 
   if (this.checked)
   {
-    textTodo.innerHTML = "Thấy điện thoại mới ra mắt";
+    textTodo.innerHTML = "Thay ốp điện thoại mới";
   }
   else
   {
@@ -47,11 +47,11 @@ document.getElementById('todo4').onclick = function(e)
 
   if (this.checked)
   {
-    textTodo.innerHTML = "Nỗ lực <del>giảm</del> béo thành công";
+    textTodo.innerHTML = "<del>Giảm</del> béo thành công 5kg";
   }
   else
   {
-    textTodo.innerHTML = "Nỗ lực giảm béo thành công";
+    textTodo.innerHTML = "Giảm béo thành công 5kg";
   }
 }
 
@@ -67,8 +67,4 @@ document.getElementById('todo5').onclick = function(e)
   {
     textTodo.innerHTML = "Sống cuộc sống an nhàn";
   }
-}
-
-
-
 }
