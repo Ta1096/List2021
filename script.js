@@ -19,11 +19,11 @@ document.getElementById('todo2').onclick = function(e)
 
   if (this.checked)
   {
-    textTodo.innerHTML = "Du lịch tại gia";
+    textTodo.innerHTML = "Đi du lịch tại gia";
   }
   else
   {
-    textTodo.innerHTML = "Du lịch";
+    textTodo.innerHTML = "Đi du lịch";
   }
 }
 
@@ -33,7 +33,7 @@ document.getElementById('todo3').onclick = function(e)
 
   if (this.checked)
   {
-    textTodo.innerHTML = "Thấy <del>Thay</del> điện thoại mới ra mắt";
+    textTodo.innerHTML = "Thấy điện thoại mới ra mắt";
   }
   else
   {
@@ -47,7 +47,7 @@ document.getElementById('todo4').onclick = function(e)
 
   if (this.checked)
   {
-    textTodo.innerHTML = "Nỗ lực <del>Giảm</del> béo thành công";
+    textTodo.innerHTML = "Nỗ lực <del>giảm</del> béo thành công";
   }
   else
   {
@@ -67,4 +67,17 @@ document.getElementById('todo5').onclick = function(e)
   {
     textTodo.innerHTML = "Sống cuộc sống an nhàn";
   }
+  document.getElementById('todo6').onclick = function(e)
+{
+  var textTodo = document.getElementById("TodoText6");
+
+  if (this.checked)
+  {
+    textTodo.innerHTML = "<del>Hết</del> độc thân";
+  }
+  else
+  {
+    textTodo.innerHTML = "Hết độc thân";
+  }
+}
 }
