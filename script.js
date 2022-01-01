@@ -4,11 +4,11 @@ document.getElementById('todo1').onclick = function(e)
   
   if (this.checked)
   {
-    textTodo.innerHTML = "Mua ô <del>tô</del>";
+    textTodo.innerHTML = "Già <del>u</del> hơn 1 tuổi";
   }
   else
   {
-    textTodo.innerHTML = "Mua ô tô";
+    textTodo.innerHTML = "Giàu";
   }
 }
 
@@ -19,11 +19,11 @@ document.getElementById('todo2').onclick = function(e)
 
   if (this.checked)
   {
-    textTodo.innerHTML = "Tiết kiệm 200.000<del>.000</del>";
+    textTodo.innerHTML = "Đi du lịch tại gia";
   }
   else
   {
-    textTodo.innerHTML = "Tiết kiệm 200.000.000";
+    textTodo.innerHTML = "Đi du lịch";
   }
 }
 
@@ -33,7 +33,7 @@ document.getElementById('todo3').onclick = function(e)
 
   if (this.checked)
   {
-    textTodo.innerHTML = "Thay ốp điện thoại mới";
+    textTodo.innerHTML = "Thấy điện thoại mới hơn ra mắt";
   }
   else
   {
@@ -47,17 +47,30 @@ document.getElementById('todo4').onclick = function(e)
 
   if (this.checked)
   {
-    textTodo.innerHTML = "<del>Giảm</del> béo thành công 5kg";
+    textTodo.innerHTML = "<del>Giảm</del> béo thành công ";
   }
   else
   {
-    textTodo.innerHTML = "Giảm béo thành công 5kg";
+    textTodo.innerHTML = "Giảm béo thành công";
   }
 }
-
 document.getElementById('todo5').onclick = function(e)
 {
   var textTodo = document.getElementById("TodoText5");
+
+  if (this.checked)
+  {
+    textTodo.innerHTML = "<del>Hết</del> độc thân";
+  }
+  else
+  {
+    textTodo.innerHTML = "Hết độc thân";
+  }
+}
+
+document.getElementById('todo6').onclick = function(e)
+{
+  var textTodo = document.getElementById("TodoText6");
 
   if (this.checked)
   {
