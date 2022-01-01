@@ -67,6 +67,7 @@ document.getElementById('todo5').onclick = function(e)
   {
     textTodo.innerHTML = "Sống cuộc sống an nhàn";
   }
+}
   document.getElementById('todo6').onclick = function(e)
 {
   var textTodo = document.getElementById("TodoText6");
